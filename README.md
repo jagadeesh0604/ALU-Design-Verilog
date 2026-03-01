@@ -15,10 +15,10 @@ The ALU supports the following 5 operations controlled by a 3-bit `opcode`:
 | `100` | **NOT** | Bitwise Logical NOT (Inverse of A) |
 
 ## Tools Used
-* [cite_start]**Language:** Verilog HDL [cite: 24]
-* [cite_start]**Simulator:** Icarus Verilog [cite: 83]
-* [cite_start]**Platform:** EDA Playground [cite: 83]
-* [cite_start]**Waveform Viewer:** EPWave / GTKWave [cite: 25]
+* **Language:** Verilog HDL
+* **Simulator:** Icarus Verilog
+* **Platform:** EDA Playground 
+* **Waveform Viewer:** EPWave / GTKWave
 
 ## Simulation Results
 The design was verified using a testbench that applies multiple test cases. The output waveforms confirm that the `result` and `carry` flags update correctly according to the `opcode`.
